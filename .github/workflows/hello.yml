@@ -7,4 +7,4 @@ jobs:
 
     steps:
       -name: Print Hello World
-       run: cho "Hello World from GitHub Actions 🚀"
+       run: echo "Hello World from GitHub Actions 🚀"
