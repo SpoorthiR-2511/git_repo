@@ -1,0 +1,11 @@
+name: Date time Workflow
+on:
+  push:
+
+job:
+  show-date:
+    runs-on: ubantu-latest
+
+    steps:
+      - name: Display Date
+        run: date
