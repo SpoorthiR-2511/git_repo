@@ -2,7 +2,7 @@ name: Date time Workflow
 on:
   push:
 
-job:
+jobs:
   show-date:
     runs-on: ubantu-latest
 
