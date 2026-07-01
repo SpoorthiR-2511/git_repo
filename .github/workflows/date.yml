@@ -1,11 +1,14 @@
-name: Date time Workflow
+name: Date Time Workflow
+
 on:
   push:
 
 jobs:
   show-date:
-    runs-on: ubantu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Display Date
-        run: date
+        run: |
+          echo "Current Date:"
+          date
